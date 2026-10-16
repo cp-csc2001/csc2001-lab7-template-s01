@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
  * heap[0] is never used. For the node at index i:
  *     left child  = 2 * i
  *     right child = 2 * i + 1
- *     parent      = i / 2
+ *     parent      = i / 2 
  *
  * Heap-order property: every parent is <= its children, so the
  * minimum is always at heap[1]. Duplicate values are allowed.
